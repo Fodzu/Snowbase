@@ -7,7 +7,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/items") // Optional: Add a base path for your API endpoints
+@CrossOrigin(origins = "frontend-snowweb20-production.up.railway.app")
+@RequestMapping("/api/items")
 public class ItemsController {
 
     @Autowired
