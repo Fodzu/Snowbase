@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "frontend-snowweb20-production.up.railway.app")
+@CrossOrigin(origins = "https://eclectic-fox-a7ecdb.netlify.app")
 @RequestMapping("/api/items")
 public class ItemsController {
 
