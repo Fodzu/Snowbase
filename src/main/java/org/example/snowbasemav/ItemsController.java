@@ -42,6 +42,8 @@ public class ItemsController {
                     item.setName(updatedItem.getName());
                     item.setDescription(updatedItem.getDescription());
                     item.setImageUrl(updatedItem.getImageUrl());
+                    item.setQuantity(updatedItem.getQuantity());
+                    item.setValue(updatedItem.getValue());
                     return itemsRepository.save(item);
                 })
                 .orElse(null);
